@@ -1,0 +1,108 @@
+ /*cores do site --> #152219
+        #aeb581
+        #557152
+        #7d976d
+        #6c8c94
+*/
+        body {
+            font-family: 'Roboto', sans-serif;;
+            font-size: 18px;
+            background-color: #CCE4A4;            
+            margin: 0;
+            padding: 0;
+        }
+        .titulo{
+            position: relative;
+            margin-left: 110px;
+            
+        }
+
+        .link_a{
+             
+           background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            
+            
+        }
+        a:hover{
+            color: #FFA500;
+        }
+        header {
+            background-image: url(./banner_ods15.png);
+            height: 200px;
+            background-size: cover;
+            color:  #041213;
+            display: flex;
+            justify-content: space-around;
+            padding: 60px 0;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        .container {
+            background-color: #F3E8DD;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            transition: transform 0.3s ease-in-out;
+            border-radius: 5px;
+            color:  #041213;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        .container:hover{
+            transform: translate(10px, 10px);
+        }
+        p {
+            line-height: 1.6;
+        }
+        .container p{
+            
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .Ods{
+            margin-top: 200px;
+            display: flex;
+            justify-content: center;
+        }
+        #ods{
+            transition: transform 0.3s ease-in-out;
+            float: left;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border-radius: 30%
+            
+        }
+        #ods:hover{
+            transform: translate(10px, 10px);
+        }
+        .ods_p{
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+        .icones{
+            padding: 10px 20px;
+        }
+        footer{
+            background-image: url(./img/sustentabilidade-footer.png);
+            background-size: cover;
+            padding: 80px;
+            color: #fff;
+            margin-top: 230px;
+            text-align: center;
+            font-size: large;
+            
+        }
+        
+    

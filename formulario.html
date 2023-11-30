@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Exemplo</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Contato</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" id="link">Página Inicial</a></li>
+            <li><a href="formulario.html" id="link">Formulário</a></li>
+        </ul>
+    </nav>
+    <div class="container informative-page">
+        <h2>Entre em contato com o projeto vida terrestre</h2>
+        <div class="informative-content">
+            <p>Basta preencher o formulário.</p>
+        </div>
+    </div>
+    <div class="container form-page">
+        <div class="cabecalho_form">
+            <h2>Preencha com seus dados:</h2>
+            <p>Ajude-nos a fazer do mundo um lugar melhor!</p>
+
+        </div>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Ex: João Silva" required>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Ex: contato@gmail.com" required>
+            <label for="fone">Telefone:</label>
+            <input type="text" id="fone" name="fone" placeholder="+55(43) 99999-9999" required>
+
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+            <button class="botao" type="submit" onclick="cadastrar()">CADASTRAR</button>
+            <button class="botao" onclick="limpaCampos()">LIMPAR FORMULÁRIO</button>
+        </form>
+
+    </div>
+
+    <form id="cadastroForm">
+        <input type="text" id="pesquisaInput" placeholder="Pesquisar por nome" />
+        <p style="font-size: 10px; color: red;">Pesquise por nome</p>
+        <p style="font-size: 10px;">Deixe o campo em branco e clique em pesquisar para retornar todos os cadastros</p>
+        <button class="botao" type="button" onclick="pesquisarCadastro()">Pesquisar</button>
+    </form>
+
+    <h2>ULTIMOS CADASTROS</h2>
+    <ul id="listaCadastro"></ul>
+
+    <button type="submit" class="delete-button" onclick="limparLocalStorage()">EXCLUIR LISTA</button>
+    <p style="font-size: 10px;">Exclui todos os dados</p>
+    <footer>
+
+        <p class="copy">&copy; 2023 Vida terrestre</p>
+    </footer>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

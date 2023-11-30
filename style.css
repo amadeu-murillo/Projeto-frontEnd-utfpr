@@ -1,0 +1,188 @@
+/*cores do site --> #106C09
+        #CBB26A
+        #179bOd
+        #093d05
+        #d8c690
+        /* Estilos Globais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+
+}
+
+#logo {
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+header {
+    background-color: #4CAF50;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    backface-visibility: hidden;
+    color: #041213;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    backface-visibility: hidden;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    background-color: #4CAF50;
+    /* Verde */
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    color: #FFA500;
+}
+
+nav ul {
+
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.container {
+    background-color: #fff;
+    height: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container .form-page {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos da Página Informativa */
+.informative-page {
+    backface-visibility: hidden;
+    color: #041213;
+}
+
+/* Estilos da Página do Formulário */
+.form-page {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    backface-visibility: hidden;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #041213;
+}
+
+.cabecalho_form {
+    text-align: center;
+}
+
+form {
+    backface-visibility: hidden;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+
+
+
+}
+
+label {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+
+    background-color: transparent;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #141313;
+}
+
+
+.botao {
+    background-color: #4CAF50;
+    /* Verde */
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.botao:hover {
+    background-color: #45a049;
+    /* Tom mais escuro de verde */
+}
+
+.copy {
+
+    margin-bottom: 0;
+    padding: 0;
+}
+
+footer {
+    background-image: url(./img/sustentabilidade-footer.png);
+    background-size: cover;
+    padding: 80px;
+    color: #fff;
+    margin-top: 230px;
+    text-align: center;
+    font-size: large;
+
+}
+
+
+
+#listaCadastro {
+    list-style-type: none;
+    padding: 0;
+}
+
+#listaCadastro li {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#listaCadastro li span {
+    font-weight: bold;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.23);
+    padding: 5px 10px;
+    cursor: pointer;
+}
